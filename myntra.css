@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background {
+    background-image: url('https://cdn.dribbble.com/users/10983377/screenshots/17836819/media/929d500cf1d2a2c03aa10558011c4d81.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+  
+  .form-container {
+    width: 350px;
+    margin-right: 10%;
+  }
+  
+  .form-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+ .form-box h1 {
+    color: #ff007f;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab-buttons button {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #ff007f;
+  }
+  
+  .tab-buttons button.active {
+    background-color: #ff007f;
+    color: #fff;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .input-group input:focus {
+    border-color: #ff007f;
+  }
+  
+  .btn {
+    background-color: #ff007f;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #e60072;
+  }
